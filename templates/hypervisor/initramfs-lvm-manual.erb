@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# Ensure to detect all LV
+/sbin/lvm pvscan
+/sbin/lvm vgscan
+/sbin/lvm vgchange -ay
+
+echo "Wait for 5s"
+sleep 5
+
+exit 0

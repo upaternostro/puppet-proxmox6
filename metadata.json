@@ -1,0 +1,20 @@
+{
+  "name": "puppet-proxmox6",
+  "version": "0.1.0",
+  "author": "upaternostro",
+  "summary": "Manage Proxmox hypervisor and KVM virtual machines or LXC containers.",
+  "license": "WTFPL",
+  "source": "https://github.com/upaternostro/puppet-proxmox6",
+  "project_page": "https://github.com/upaternostro/puppet-proxmox6",
+  "issues_url": "https://github.com/upaternostro/puppet-proxmox6/issues",
+  "description": "Proxmox module",
+  "operatingsystem_support": [
+    {
+    "operatingsystem":"Debian"
+    }
+  ],
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":"4.x"},
+    {"name":"puppetlabs/apt","version_requirement":">=1.1.0 <2.0.0"}
+  ]
+}
